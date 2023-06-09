@@ -34,9 +34,9 @@
         <h1 class="title">Build Your Sandwich</h1>
         <input type="text" placeholder="Sandwich Name..." class="sname">
         <h3 class="bread">Choose Your bread</h3>
-        <input id="white" name="baseRadio" type="checkbox" class="check" checked> <p class="bre">White Bread(100 cal) R10.00</p> 
-        <input id="brown" name="baseRadio" type="checkbox" class="check"> <p class="bre">Brown Bread(60 cal) R8.00</p>
-        <input id="fiber" name="baseRadio" type="checkbox" class="check"> <p class="bre">Fiber Bread(10 000 cal) R5 000.00</p> 
+        <input id="white" name="bread" type="radio" class="check" checked> <p class="bre">White Bread(100 cal) R10.00</p> 
+        <input id="brown" name="bread" type="radio" class="check"> <p class="bre">Brown Bread(60 cal) R8.00</p>
+        <input id="fiber" name="bread" type="radio" class="check"> <p class="bre">Fiber Bread(10 000 cal) R5 000.00</p> 
        </div>
 
        <div class="begin3">
@@ -64,6 +64,11 @@
         <input type="checkbox" class="check"> <p class="bre">BBQ(50 cal) R2.00</p> 
         <input type="checkbox" class="check"> <p class="bre">Peri Peri(30 cal) R2.00</p> 
         <input type="checkbox" class="check"> <p class="bres">Judid caludid manastory raisin rum brigget and bold manitary saturated obligated ebrycanary juicy puicy ary pary jerry cary tar tar sauce(1 000 000 cal) R1 000 000.00</p>
+       </div>
+
+       <div class="end">
+          <button class="add" onclick="addPrice()">Add sandwich</button>
+          <button class="order">Make Order</button>
        </div>
     </section>
 
