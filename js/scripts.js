@@ -85,8 +85,7 @@ orderSandwich = () => {
 
 displaySandwichOrder = () =>{
 
-      let orderArea = document.getElementById("orders");
-      let orderTotal = document.getElementById("TotalCost");
+      let orderArea = document.getElementById("orders");s
       orderArea.innerHTML = " ";
       let totalCost = 0;
 
