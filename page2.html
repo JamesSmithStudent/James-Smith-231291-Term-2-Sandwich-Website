@@ -27,48 +27,51 @@
     </header> 
 
     <section class="choose">
-       <div class="dom"></div>
+       <div class="dom" id="orders" >
+
+       </div>
+
        <div class="begin"></div>
 
        <div class="begin2">
         <h1 class="title">Build Your Sandwich</h1>
-        <input type="text" placeholder="Sandwich Name..." class="sname">
+        <input id="Sandname" type="text" placeholder="Sandwich Name..." class="sname">
         <h3 class="bread">Choose Your bread</h3>
-        <input id="white" name="bread" type="radio" class="check" data-cost="10" checked> <p class="bre" >White Bread(100 cal) R10.00</p> 
-        <input id="brown" name="bread" type="radio" class="check" data-cost="8"> <p class="bre" >Brown Bread(60 cal) R8.00</p>
-        <input id="fiber" name="bread" type="radio" class="check"  data-cost="5000"> <p class="bre">Fiber Bread(10 000 cal) R5 000.00</p> 
+        <input id="white" name="bread" type="radio" class="check" data-cost="10" data-cal="100" checked> <p class="bre" >White Bread(100 cal) R10.00</p> 
+        <input id="brown" name="bread" type="radio" class="check" data-cost="8" data-cal="60"> <p class="bre" >Brown Bread(60 cal) R8.00</p>
+        <input id="fiber" name="bread" type="radio" class="check"  data-cost="500" data-cal="10000" > <p class="bre">Fiber Bread(10 000 cal) R5 000.00</p> 
        </div>
 
        <div class="begin3">
         <h3 class="bread">Choose Your Meat</h3>
-        <input name="meat" id="chicken" type="checkbox" class="check" value="chicken" data-cost="2"> <p class="bre">Chicken(200 cal) R2.00</p> 
-        <input name="meat" id="beef" type="checkbox" class="check" value="beef" data-cost="3"> <p class="bre">Beef(160 cal) R3.00</p>
-        <input name="meat" id="pork" type="checkbox" class="check" value="pork"  data-cost="5"> <p class="bre">Pork(190 cal) R5.00</p> 
-        <input name="meat" id="turkey" type="checkbox" class="check" value="turkey" data-cost="5"> <p class="bre">Turkey(250 cal) R5.00</p> 
-        <input name="meat" id="dino" type="checkbox" class="check" value="dino" data-cost="11000"> <p class="bre">Dinosaur meat(30 000 cal) R11 000.00</p> 
+        <input name="meat" id="chicken" type="checkbox" class="check" value="chicken" data-cost="2" data-cal="200"> <p class="bre">Chicken(200 cal) R2.00</p> 
+        <input name="meat" id="beef" type="checkbox" class="check" value="beef" data-cost="3" data-cal="160"> <p class="bre">Beef(160 cal) R3.00</p>
+        <input name="meat" id="pork" type="checkbox" class="check" value="pork"  data-cost="5" data-cal="190" > <p class="bre">Pork(190 cal) R5.00</p> 
+        <input name="meat" id="turkey" type="checkbox" class="check" value="turkey" data-cost="5" data-cal="250"> <p class="bre">Turkey(250 cal) R5.00</p> 
+        <input name="meat" id="dino" type="checkbox" class="check" value="dino" data-cost="110" data-cal="30000"> <p class="bre">Dinosaur meat(30 000 cal) R11 000.00</p> 
        </div>
 
        <div class="begin4">
         <h3 class="bread">Choose Your Ekstras</h3>
-        <input name="ekstra" type="checkbox" class="check" data-cost="1" value="tomato" id="tomato"> <p class="bre">Tomatoes(20 cal) R1.00</p> 
-        <input name="ekstra" type="checkbox" class="check" data-cost="3" value="cabage" id="cabage"> <p class="bre">Cabage(10 cal) R3.00</p>
-        <input name="ekstra" type="checkbox" class="check" data-cost="2" value="pickles" id="pickles"> <p class="bre">Pickles(50 cal) R2.00</p> 
-        <input name="ekstra" type="checkbox" class="check" data-cost="2" value="onions" id="onions"> <p class="bre" >Onions(30 cal) R2.00</p> 
-        <input name="ekstra" type="checkbox" class="check" data-cost="2000" value="jupe" id="jupe"> <p class="bre">Jupiter leaf(8 000cal) R2 000.00</p>
+        <input name="extra" type="checkbox" class="check" data-cost="1" value="tomato" id="tomato" data-cal="20"> <p class="bre">Tomatoes(20 cal) R1.00</p> 
+        <input name="extra" type="checkbox" class="check" data-cost="3" value="cabage" id="cabage" data-cal="10"> <p class="bre">Cabage(10 cal) R3.00</p>
+        <input name="extra" type="checkbox" class="check" data-cost="2" value="pickles" id="pickles" data-cal="50"> <p class="bre">Pickles(50 cal) R2.00</p> 
+        <input name="extra" type="checkbox" class="check" data-cost="2" value="onions" id="onions" data-cal="30"> <p class="bre" >Onions(30 cal) R2.00</p> 
+        <input name="extra" type="checkbox" class="check" data-cost="2000" value="jupe" id="jupe" data-cal="8000"> <p class="bre">Jupiter leaf(8 000cal) R2 000.00</p>
        </div>
 
        <div class="begin5">
         <h3 class="bread">Choose Your Sauce</h3>
-        <input name="sauce" type="checkbox" class="check" id="tomatoe" data-cost="1"> <p class="bre" >Tomato Sauce(20 cal) R1.00</p> 
-        <input name="sauce" type="checkbox" class="check" id="mustard" data-cost="3"> <p class="bre">Mustard(10 cal) R3.00</p>
-        <input name="sauce" type="checkbox" class="check" id="bbq" data-cost="2"> <p class="bre">BBQ(50 cal) R2.00</p> 
-        <input name="sauce" type="checkbox" class="check" id="peri" data-cost="2"> <p class="bre">Peri Peri(30 cal) R2.00</p> 
-        <input name="sauce" type="checkbox" class="check" id="judi" data-cost="1000000"><p class="bres">Judid caludid manastory raisin rum brigget and bold manitary saturated obligated ebrycanary juicy puicy ary pary jerry cary tar tar sauce(1 000 000 cal) R1 000 000.00</p>
+        <input name="sauce" type="checkbox" class="check" id="tomatoe" data-cost="1" data-cal="20"> <p class="bre" >Tomato Sauce(20 cal) R1.00</p> 
+        <input name="sauce" type="checkbox" class="check" id="mustard" data-cost="3" data-cal="10"> <p class="bre">Mustard(10 cal) R3.00</p>
+        <input name="sauce" type="checkbox" class="check" id="bbq" data-cost="2" data-cal="50"> <p class="bre">BBQ(50 cal) R2.00</p> 
+        <input name="sauce" type="checkbox" class="check" id="peri" data-cost="2" data-cal="30"> <p class="bre">Peri Peri(30 cal) R2.00</p> 
+        <input name="sauce" type="checkbox" class="check" id="judi" data-cost="1000" data-cal="1000000"><p class="bres">Judid caludid manastory raisin rum brigget and bold manitary saturated obligated ebrycanary juicy puicy ary pary jerry cary tar tar sauce(1 000 000 cal) R1 000 000.00</p>
        </div>
 
        <div class="end">
-          <button class="add" onclick="addSandwich()">Add sandwich</button>
-          <button class="order">Make Order</button>
+          <button class="add" >Add sandwich</button>
+          <button class="order" onclick="orderSandwich();displaySandwichOrder()">Make Order</button>
        </div>
     </section>
 

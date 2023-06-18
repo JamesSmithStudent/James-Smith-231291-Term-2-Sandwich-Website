@@ -94,6 +94,17 @@ a{
     opacity: 80%;
     }
 
+    .dom2{
+        width: 70%;
+        height: 50px;
+        background-color: greenyellow;
+        position: fixed;
+ 
+        border-radius: 50px;
+        margin-bottom: 300px;
+        opacity: 80%;
+        }
+
 .begin{
     width: 50%;
     height: 250px;
@@ -195,4 +206,33 @@ a{
     background-color: greenyellow;
     color: black;
     border-radius: 10px;
+}
+
+.pp2{
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.pp1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    float: left;
+    margin-right: 150px;
+}
+
+.pp3{
+    float: right;
+    font-size: 25px;
+   margin-top: 10px;
+   margin-right: 150px;
+}
+
+.pp4{
+   float: left; 
+   font-size: 25px;
+   margin-top: 10px;
+   margin-right: 150px;
 }
